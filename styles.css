@@ -1,0 +1,136 @@
+/* *,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/*
+  ========================================
+  Rating State
+  ========================================
+*/
+
+*{
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(213, 19%, 18%);
+    font-size: 30px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(213, 19%, 18%);
+    line-height: 1.5;
+    padding: 0px 5px;
+}
+
+.ratingState {
+    background-color: hsl(213, 19%, 18%);
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+    margin: 100px auto;
+    max-width: 350px;
+    max-height: 600px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+
+
+.star{
+    border-radius: 50%;
+    background-color: hsla(217, 12%, 63%, 0.13);
+    width: 30px;
+    height: 30px;
+}
+
+.star svg {
+    padding: 5px;
+}
+
+/* .ratingState form {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+} */
+
+.rating {
+    display: inline-block;
+    background-color: hsla(217, 12%, 63%, 0.13);
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.rating:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 330px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+}
+
+
+/*
+  ========================================
+  Thank You State
+  ========================================
+*/
+
+.thankYouState {
+    background-color: hsl(213, 19%, 18%);
+    display: block;
+    margin: 100px auto;
+    max-width: 350px;
+    max-height: 600px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(217, 12%, 63%)
+
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }

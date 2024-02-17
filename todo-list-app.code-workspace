@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../todo-list-app"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "interactive-rating-component-main"
+	}
+}
